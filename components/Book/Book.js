@@ -22,7 +22,7 @@ const Book = ( props ) => {
        <h3>{name}</h3>
        <p>{description}</p>
        <h3>Rs.{price}</h3> 
-       <Button LinkComponent={Link} to={`/books/${_id}`} sx={{mt:"auto"}}>Update</Button>
+       <Button LinkComponent={Link} to={`/books/${_id}`} sx={{mt:"auto"}}>Update User</Button>
        <Button onClick={deleteHandler} sx={{mt:"auto"}}>Delete</Button>
     </div>
   );
